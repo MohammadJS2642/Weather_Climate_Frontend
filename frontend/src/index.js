@@ -4,15 +4,38 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header/Header'
+import BodySite from './Body/Body';
+import Climate from './Body/Climate';
+import MyBody from './Body/Body';
 
-
+//TODO: it is shows in above all of tags
 ReactDOM.render(
   <React.StrictMode>
     <Header />
   </React.StrictMode>,
-  document.getElementById('body')
-)
+  document.body.appendChild(document.createElement('header'))
+);
 
+ReactDOM.render(
+  <React.StrictMode>
+    <BodySite />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Climate />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <BodySite />
+//   </React.StrictMode>,
+//   document.body.appendChild(document.createElement('div'))
+// );
 
 // ReactDOM.render(
 //   <React.StrictMode>
