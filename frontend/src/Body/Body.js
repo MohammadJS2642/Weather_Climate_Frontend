@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './Body.css';
-import Climate from './Climate';
+import WeatherWidget from '../Weather_Widget/WeatherWidget';
 
 function BodySite() {
     // i should this 
@@ -9,7 +9,7 @@ function BodySite() {
 
     return (
         <div className="background_body">
-            <Climate />
+            <WeatherWidget />
         </div>
     );
 }
