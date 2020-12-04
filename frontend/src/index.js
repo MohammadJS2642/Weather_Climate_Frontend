@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header/Header'
 import BodySite from './Body/Body';
-import Climate from './Body/Climate';
+// import Climate from './Body/Climate';
 import MyBody from './Body/Body';
 
 //TODO: it is shows in above all of tags

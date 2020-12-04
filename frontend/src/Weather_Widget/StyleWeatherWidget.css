@@ -1,0 +1,38 @@
+.background_weather {
+  position: inherit;
+  width: 80%;
+  height: 60%;
+  background-color: white;
+  left: 9%;
+  top: 10%;
+  border-radius: 60px;
+  border: 1px solid rgb(112, 112, 112);
+}
+
+
+.background_weather .weather_status {
+  position: absolute;
+  left: 45%;
+  bottom: 18%;
+  color: rgb(163, 212, 247);
+  font-size: 65px;
+  -webkit-text-stroke: 1px rgb(112, 112, 112);
+}
+
+.background_weather .weather_degree {
+  position: absolute;
+  left: 46%;
+  top: 20%;
+  color: rgb(163, 212, 247);
+  font-size: 65px;
+  font-weight: 700;
+  -webkit-text-stroke: 1px rgb(112, 112, 112);
+}
+
+.background_weather .degree {
+  font-size: 25px;
+}
+
+.background_weather .kelin {
+  font-size: 35px;
+}
